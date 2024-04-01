@@ -1,0 +1,509 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #00def7;
+  background-color: black
+  
+}
+
+
+
+/* TOP Navigation  Bar */
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent; /* Set the initial background to transparent */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: background-color 0.9s; 
+  z-index: 999;
+}
+
+.navbar-scrolled {
+
+  background-color: rgba(0, 0, 0, 0.9); /* Set the background colour when scrolled below */
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2ff04;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Anta", sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #e800d0;
+  background-color: transparent; /* Set the initial background to transparent */
+  color: #e800d0;
+}
+
+.topnav a.active {
+
+  color: #00def7;
+  font-family: "Anta", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.topnav a.active:hover {
+  background-color:  #000000;
+  background-color: transparent; /* Set the initial background to transparent */
+  color:  #e800d0;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+
+/* Title-I am Navraj Ghimire */
+
+
+.title {
+  font-family: "Rubik Doodle Shadow", system-ui; 
+   font-size: 50px;
+   color: #00def7;
+  
+} 
+
+.subtitle {
+  font-family: "Quicksand", sans-serif;
+   font-size: 30px; 
+   color: rgb(255, 255, 255);
+   font-weight: 300;
+} 
+
+.subtitle strong {
+
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* Hero section */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(1, 7, 56, 0.319), rgba(0, 0, 0, 0.731)), url("NavrajLinkednProfile Pic 2.jpg");
+  height: 50%;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  color: #00def7;
+  background-color: #000000;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #00def7;
+  color:  #000000;;
+}
+
+
+
+
+
+
+
+/* Content section */
+
+.content-container {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* cardds section*/
+
+.cards {
+  display: flex; 
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  background-color: rgb(0, 0, 0);
+}
+
+.card {
+  width: calc(33.33% - 20px); 
+  margin: 10px; 
+  text-align: center;
+  background-color: #000000;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container h4 {
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin: 0;
+}
+
+
+.content-card {
+  background-color: rgb(0, 191, 255);
+  color: rgb(0, 0, 0); 
+  padding: 20px; 
+  border-radius: 10px; 
+}
+
+
+.section-heading{
+  text-align: left;
+  background-color: rgb(0, 0, 0); 
+  color: rgb(0, 0, 0); 
+  padding: 20px; 
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight:800;
+  color: #05d2f1;
+  background-color: rgb(3, 36, 97)
+  
+}
+
+.designation {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  background-color: rgb(96, 96, 97);
+  color: #fbff08;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-style: italic;
+}
+
+
+
+.section-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight:800;
+  color: rgb(0, 0, 0); 
+}
+
+.sub-content {
+  color: rgb(254, 207, 0);
+}
+
+.accordion-section {
+  background-color: rgb(0, 0, 0);
+  color: #e6c8cb;
+  padding: 2rem;
+  text-align: center;
+}
+
+.accordion-toggle {
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+  background: none;
+  border-bottom: 2px solid #00def7;
+  padding: 1rem;
+  text-align: left;
+  width: 100%;
+  color: #00def7;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-toggle::after {
+  content: ' +';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.accordion input[type="checkbox"]:checked + label::after {
+  content: ' -';
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-content {
+  display: none;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border-top: 1px solid #333;
+  padding: 1rem;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  max-height: 0;
+  text-align: left; 
+ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.accordion input[type="checkbox"]:checked + label + .accordion-content {
+  display: block;
+  max-height: 1000px;
+}
+
+
+
+
+/* Open accordion on hover */
+.accordion-toggle:hover + input[type="checkbox"] + .accordion-content,
+.accordion-toggle:hover + input[type="checkbox"]:checked + .accordion-content {
+  display: block;
+  max-height: 1000px;
+}
+
+
+
+
+
+
+
+/*for the video section */
+
+.video-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  }
+
+/* Mobile responsiveness for video-section */
+@media (max-width: 768px) {
+  .video-section {
+    flex-direction: column; 
+    
+  }
+}
+
+
+
+.left-card,
+.right-card {
+  flex: 1;
+  background-color: #000000;
+  
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  flex: 1;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  height: 200px;
+  flex-direction: column;
+}
+
+.video-heading {
+    color: #939a99;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+  text-align: center;
+  }
+
+.video-description {
+  color: #181818;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 100%; 
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  padding-top: 56.25%; 
+
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.bullet-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  color: #979494;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  padding-left: 50px;
+  max-width: 100%; 
+  overflow-x: auto; 
+  white-space: nowrap; 
+  list-style: none;
+  }
+
+
+/* footer */
+
+.footer-copyright-container {
+  font-size: 22px;
+  text-align: center; 
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  width: 100%; 
+  background-color: #000000; 
+  z-index: 999; 
+}
+
+.footer-columns {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #151414; 
+}
+
+.footer-column {
+  flex-basis: calc(25% - 20px);
+  margin-right: 20px;
+  text-align: left; 
+}
+
+.footer-column:last-child {
+  margin-right: 0;
+}
+
+
+
+.social-icons a {
+  color: #fff; 
+  font-size: 32px; 
+  margin: 0 10px;
+  align-items: end;
+}
+
+.social-icons a:hover {
+  color: #0c70eb; 
+}
+
+
+   /* Styles for the line above the copyright text */
+  hr {
+    border: 0;
+    border-top: 1px solid #000000; 
+    margin: 10px 0; /
+  }
+
+  .footer-column h4 {
+    text-align: center; 
+  }
+  .footer-column ul {
+    text-align: center; 
+    color: #00def7;
+  }
+
+  .footer-column a {
+    color: #00def7;
+  }
+  
+
+  .info {
+    padding: 40px;
+    color: rgb(254, 207, 0);
+  }
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+  }
+
+  
