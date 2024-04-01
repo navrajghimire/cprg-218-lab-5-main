@@ -9,10 +9,7 @@ body {
 }
 
 
-
 /* TOP Navigation  Bar */
-
-
 
 .topnav {
   overflow: hidden;
@@ -89,23 +86,20 @@ body {
 }
 
 
-
-
-
-/* Title-I am Navraj Ghimire */
+/* Title-DOGS */
 
 
 .title {
   font-family: "Rubik Doodle Shadow", system-ui; 
    font-size: 50px;
-   color: #00def7;
+   color: #00def6;
   
 } 
 
 .subtitle {
   font-family: "Quicksand", sans-serif;
    font-size: 30px; 
-   color: rgb(255, 255, 255);
+   color: rgb(255, 238, 0);
    font-weight: 300;
 } 
 
@@ -113,10 +107,8 @@ body {
 
   font-size: 30px;
   font-style: italic;
-  color: rgb(255, 255, 255);
+  color: rgb(55, 255, 0);
 }
-
-
 
 
 
@@ -126,10 +118,11 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(1, 7, 56, 0.319), rgba(0, 0, 0, 0.731)), url("NavrajLinkednProfile Pic 2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.97)), url("Firefly A front facing very Cute Dog looking from below at camera 48418.jpeg");
   height: 50%;
   height: 50%;
   background-position: center;
@@ -143,291 +136,178 @@ body, html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+  transform: translate(-50%, -00%);
+
 }
 
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  border-radius: 10px;
+
+
+/* CSS for Different Sections */
+
+.section2  {
+  background-color: #00a4f0; /* Light blue */
+  color: #000000;
   font-family: "Quicksand", sans-serif;
-  font-size: 22px;
-  color: #00def7;
-  background-color: #000000;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #00def7;
-  color:  #000000;;
-}
-
-
-
-
-
-
-
-/* Content section */
-
-.content-container {
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-
-
-
-
-
-
-/* cardds section*/
-
-.cards {
-  display: flex; 
-  justify-content: space-around;
-  flex-wrap: wrap; 
-  background-color: rgb(0, 0, 0);
-}
-
-.card {
-  width: calc(33.33% - 20px); 
-  margin: 10px; 
-  text-align: center;
-  background-color: #000000;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card img {
-  width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.container {
-  padding: 20px;
-}
-
-.container h4 {
-  margin-bottom: 10px;
-}
-
-.container p {
-  margin: 0;
-}
-
-
-.content-card {
-  background-color: rgb(0, 191, 255);
-  color: rgb(0, 0, 0); 
+  font-weight:800;
   padding: 20px; 
-  border-radius: 10px; 
-}
+  border-radius: 10px;
+
+  }
 
 
 .section-heading{
   text-align: left;
-  background-color: rgb(0, 0, 0); 
-  color: rgb(0, 0, 0); 
   padding: 20px; 
   border-radius: 10px;
   font-family: "Quicksand", sans-serif;
   font-weight:800;
-  color: #05d2f1;
+  color: #1bd8f5;
   background-color: rgb(3, 36, 97)
   
 }
 
-.designation {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 700;
-  background-color: rgb(96, 96, 97);
-  color: #fbff08;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-style: italic;
-}
-
-
-
 .section-text {
+  border-radius: 10px;
+  padding: 20px; 
   font-family: "Quicksand", sans-serif;
   font-size: 20px;
   font-weight:800;
-  color: rgb(0, 0, 0); 
-}
-
-.sub-content {
-  color: rgb(254, 207, 0);
-}
-
-.accordion-section {
-  background-color: rgb(0, 0, 0);
-  color: #e6c8cb;
-  padding: 2rem;
-  text-align: center;
-}
-
-.accordion-toggle {
-  position: relative;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 800;
-  background: none;
-  border-bottom: 2px solid #00def7;
-  padding: 1rem;
-  text-align: left;
-  width: 100%;
-  color: #00def7;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.accordion-toggle::after {
-  content: ' +';
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.accordion input[type="checkbox"]:checked + label::after {
-  content: ' -';
-}
-
-.accordion {
-  display: flex;
-  flex-direction: column;
-}
-
-.accordion-content {
-  display: none;
-  background-color: #000000;
-  color: rgb(255, 255, 255);
-  border-top: 1px solid #333;
-  padding: 1rem;
-  transition: max-height 0.3s ease-out;
-  overflow: hidden;
-  max-height: 0;
-  text-align: left; 
- 
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.accordion input[type="checkbox"]:checked + label + .accordion-content {
-  display: block;
-  max-height: 1000px;
-}
-
-
-
-
-/* Open accordion on hover */
-.accordion-toggle:hover + input[type="checkbox"] + .accordion-content,
-.accordion-toggle:hover + input[type="checkbox"]:checked + .accordion-content {
-  display: block;
-  max-height: 1000px;
-}
-
-
-
-
-
-
-
-/*for the video section */
-
-.video-section {
-  display: flex;
-  justify-content: space-between;
-  background-color: #000000;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  }
-
-/* Mobile responsiveness for video-section */
-@media (max-width: 768px) {
-  .video-section {
-    flex-direction: column; 
-    
-  }
-}
-
-
-
-.left-card,
-.right-card {
-  flex: 1;
-  background-color: #000000;
+  color: #00cae9;
+  background-color: rgb(3, 36, 97)
   
-  padding: 20px;
+}
+
+
+
+/* Style for displayed dog images */
+#defaultDogImage {
+  width: 100px;
+  height: 100px;
+  /* Add any additional styles as needed */
+}
+
+
+
+/* Style for select element */
+#dogSelect {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  color: #000000;
+  border: 2px solid #00106d;
   border-radius: 10px;
+  appearance: none; /* Remove default arrow icon */
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* Add custom arrow icon */
+ /* Add custom arrow icon */
+ background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23000000" width="18px" height="18px"><path d="M7 10l5 5 5-5H7z"/><path fill="none" d="M0 0h24v24H0z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
 }
 
-.card {
-  flex: 1;
-  background-color: #000000;
-  padding: 20px;
+/* Style for select options */
+#dogSelect option {
+  background-color: #4d4904;
+}
+
+/* Style for select hover effect */
+#dogSelect:hover {
+  border-color: #00def7;
+}
+
+/* Style for select focus effect */
+#dogSelect:focus {
+  outline: none;
+  border-color: #00133c;
+  box-shadow: 0 0 5px #002a95;
+}
+
+/* Style for button */
+#getDogButton {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #00106d;
   border-radius: 10px;
-  max-width: 300px;
-  height: 200px;
-  flex-direction: column;
+  background-color: #9fa0ff;
+  color: #00035b;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.video-heading {
-    color: #939a99;
-    font-size: 18px;
-    margin-bottom: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
-  text-align: center;
-  }
-
-.video-description {
-  color: #181818;
-  font-size: 16px;
-  line-height: 1.6;
-  max-width: 100%; 
+/* Style for button hover effect */
+#getDogButton:hover {
+  background-color: #0508a4;
+  border-color: #00def7;
+  color: #ffffff;
 }
 
-.video-container {
-  position: relative;
-  overflow: hidden;
-  width: auto;
-  height: auto;
-  padding-top: 56.25%; 
 
+
+/* Style for button */
+#randomDogButton {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #00106d;
+  border-radius: 10px;
+  background-color: #9fa0ff;
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: auto;
+/* Style for button hover effect */
+#randomDogButton:hover {
+  background-color: #002072; 
+  border-color: #00def7;
+  color: #fffcfc;
 }
 
-.bullet-list {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  color: #979494;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: left;
-  padding-left: 50px;
-  max-width: 100%; 
-  overflow-x: auto; 
-  white-space: nowrap; 
-  list-style: none;
-  }
+
+/* Style for input field */
+#searchInput {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid #00106d;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Style for input field hover effect */
+#searchInput:hover {
+  border-color: #002288;
+}
+
+/* Style for input field focus effect */
+#searchInput:focus {
+  outline: none;
+  border-color: #00133c;
+  box-shadow: 0 0 5px #002a95;
+}
+
+/* Style for button */
+#searchButton {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #00106d;
+  border-radius: 10px;
+  background-color: #9fa0ff;
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Style for button hover effect */
+#searchButton:hover {
+  background-color: #0508a4;
+  border-color: #00def7;
+  color: #ffffff;
+}
 
 
 /* footer */
@@ -462,7 +342,6 @@ body, html {
 }
 
 
-
 .social-icons a {
   color: #fff; 
   font-size: 32px; 
@@ -473,7 +352,6 @@ body, html {
 .social-icons a:hover {
   color: #0c70eb; 
 }
-
 
    /* Styles for the line above the copyright text */
   hr {
