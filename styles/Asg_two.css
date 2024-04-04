@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #00def7;
+  color: #bbff00;
   background-color: black
   
 }
@@ -29,7 +29,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2ff04;
+  color: #00f100;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -38,14 +38,14 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #e800d0;
+  background-color: #8400f8;
   background-color: transparent; /* Set the initial background to transparent */
-  color: #e800d0;
+  color: #ffffff;
 }
 
 .topnav a.active {
 
-  color: #00def7;
+  color: #8400f8;
   font-family: "Anta", sans-serif;
   font-size: 25px;
   font-weight: 900;
@@ -54,7 +54,7 @@ body {
 .topnav a.active:hover {
   background-color:  #000000;
   background-color: transparent; /* Set the initial background to transparent */
-  color:  #e800d0;
+  color:  rgb(17, 255, 0);
   font-size: 25px;
   font-weight: 900;
 }
@@ -92,14 +92,14 @@ body {
 .title {
   font-family: "Rubik Doodle Shadow", system-ui; 
    font-size: 50px;
-   color: #00def6;
+   color: #ffffff;
   
 } 
 
 .subtitle {
   font-family: "Quicksand", sans-serif;
    font-size: 30px; 
-   color: rgb(255, 238, 0);
+   color: #8400f8;
    font-weight: 300;
 } 
 
@@ -107,7 +107,7 @@ body {
 
   font-size: 30px;
   font-style: italic;
-  color: rgb(55, 255, 0);
+  color: #8400f8;
 }
 
 
@@ -145,7 +145,7 @@ body, html {
 /* CSS for Different Sections */
 
 .section2  {
-  background-color: #00a4f0; /* Light blue */
+  background-color: #000000; /* Light blue */
   color: #000000;
   font-family: "Quicksand", sans-serif;
   font-weight:800;
@@ -161,8 +161,8 @@ body, html {
   border-radius: 10px;
   font-family: "Quicksand", sans-serif;
   font-weight:800;
-  color: #caabf4;
-  background-color: rgb(3, 36, 97)
+  color: #153400;
+  background-color: rgb(94, 185, 49)
   
 }
 
@@ -172,8 +172,8 @@ body, html {
   font-family: "Quicksand", sans-serif;
   font-size: 20px;
   font-weight:800;
-  color: #00cae9;
-  background-color: rgb(3, 36, 97)
+  color: #ffffff;
+  background-color: rgb(52, 3, 97)
   
 }
 
@@ -214,7 +214,7 @@ body, html {
 
 /* Style for select hover effect */
 #dogSelect:hover {
-  border-color: #00def7;
+  border-color: #9900ff;
 }
 
 /* Style for select focus effect */
@@ -231,17 +231,17 @@ body, html {
   padding: 10px 20px;
   border: 2px solid #00106d;
   border-radius: 10px;
-  background-color: #9fa0ff;
-  color: #00035b;
+  background-color: #6200ff;
+  color: #ffffff;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 /* Style for button hover effect */
 #getDogButton:hover {
-  background-color: #0508a4;
+  background-color: #00f100;
   border-color: #00def7;
-  color: #ffffff;
+  color: #6200ff;
 }
 
 
@@ -253,17 +253,17 @@ body, html {
   padding: 10px 20px;
   border: 2px solid #00106d;
   border-radius: 10px;
-  background-color: #9fa0ff;
-  color: #000000;
+  background-color: #6200ff;
+  color: #ffffff;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 /* Style for button hover effect */
 #randomDogButton:hover {
-  background-color: #002072; 
-  border-color: #00def7;
-  color: #fffcfc;
+  background-color: #00f100; 
+  border-color: #000000;
+  color: #6200ff;
 }
 
 
@@ -296,17 +296,17 @@ body, html {
   padding: 10px 20px;
   border: 2px solid #00106d;
   border-radius: 10px;
-  background-color: #9fa0ff;
-  color: #000000;
+  background-color: #6200ff;
+  color: #ffffff;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 /* Style for button hover effect */
 #searchButton:hover {
-  background-color: #0508a4;
+  background-color: #00f100;
   border-color: #00def7;
-  color: #ffffff;
+  color: #6200ff;
 }
 
 
@@ -350,7 +350,7 @@ body, html {
 }
 
 .social-icons a:hover {
-  color: #0c70eb; 
+  color: #6a4cef; 
 }
 
    /* Styles for the line above the copyright text */
@@ -365,11 +365,11 @@ body, html {
   }
   .footer-column ul {
     text-align: center; 
-    color: #00def7;
+    color: #f7da00;
   }
 
   .footer-column a {
-    color: #00def7;
+    color: #bdff5b;
   }
   
 

@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     getDogButton.addEventListener("click", () => {
         const selectedBreed = dogSelect.value;
-        renderDogInfo(selectedBreed, dogInfoSection); // Pass the dogInfoSection
+        renderDogInfo(selectedBreed, dogInfoSection); 
     });
 
     // Section 3: Search by dog name
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Function to fetch information about a specific dog breed
 async function fetchDogInfo(breed) {
     try {
-        const apiKey = "live_DgfhkNpY6NUTQwyGN99Mr8zbgE0Zbedw49Egwg70NzicEFVtUkIzBe6H8HLMRCrd"; // your "actual" API key
+        const apiKey = "live_DgfhkNpY6NUTQwyGN99Mr8zbgE0Zbedw49Egwg70NzicEFVtUkIzBe6H8HLMRCrd"; 
         const response = await fetch(`https://api.thedogapi.com/v1/breeds/search?q=${breed}`, {
             headers: {
                 "x-api-key": apiKey
@@ -81,7 +81,7 @@ async function fetchDogInfo(breed) {
 // Function to fetch image of a specific dog breed
 async function fetchDogImage(breed) {
     try {
-        const apiKey = "live_DgfhkNpY6NUTQwyGN99Mr8zbgE0Zbedw49Egwg70NzicEFVtUkIzBe6H8HLMRCrd"; // your "actual" API key
+        const apiKey = "live_DgfhkNpY6NUTQwyGN99Mr8zbgE0Zbedw49Egwg70NzicEFVtUkIzBe6H8HLMRCrd"; 
         const response = await fetch(`https://api.thedogapi.com/v1/images/search?breed_id=${breed}`, {
             headers: {
                 "x-api-key": apiKey
@@ -112,8 +112,8 @@ async function renderDogInfo(breed, section) {
         const img = document.createElement("img");
         img.src = dogImage;
         img.alt = dogInfo.name;
-        img.style.width = "400px"; // Set image width to 400 pixels
-        img.style.height = "300px"; // Set image height to 300 pixels
+        img.style.width = "400px"; 
+        img.style.height = "300px"; 
 
         card.appendChild(breedHeader);
         card.appendChild(temperamentParagraph);
@@ -161,8 +161,8 @@ async function renderRandomDogInfo(section) {
         const img = document.createElement("img");
         img.src = randomDogImage;
         img.alt = randomDogInfo.name;
-        img.style.width = "400px"; // Set image width to 400 pixels
-        img.style.height = "300px"; // Set image height to 300 pixels
+        img.style.width = "400px"; 
+        img.style.height = "300px"; 
 
         card.appendChild(breedHeader);
         card.appendChild(temperamentParagraph);
@@ -178,7 +178,7 @@ async function renderRandomDogInfo(section) {
 // Function to search for a dog by name
 async function searchDogByName(name, section) {
     try {
-        const apiKey = "live_DgfhkNpY6NUTQwyGN99Mr8zbgE0Zbedw49Egwg70NzicEFVtUkIzBe6H8HLMRCrd"; // your "actual" API key
+        const apiKey = "live_DgfhkNpY6NUTQwyGN99Mr8zbgE0Zbedw49Egwg70NzicEFVtUkIzBe6H8HLMRCrd";
         const response = await fetch(`https://api.thedogapi.com/v1/breeds/search?q=${name}`, {
             headers: {
                 "x-api-key": apiKey
